@@ -1,4 +1,5 @@
-function decompose(n) {
+
+export function decomp(n) {
   let fractions = [];
   let goal = eval(n);
   if (goal >= 1) {
@@ -16,4 +17,4 @@ function decompose(n) {
   }
   return fractions;
 }
-console.log(decompose('22/23'));
+
